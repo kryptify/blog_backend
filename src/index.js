@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 const start = async () => {
     app.listen(PORT, () => {
         /* eslint-disable no-console */
-        log.info(`Listening: http://localhost:${PORT}`);
+        log.info(`Listening: http://blog-backend-blue.vercel.app:${PORT}`);
         /* eslint-enable no-console */
     });
     await tools.init();
